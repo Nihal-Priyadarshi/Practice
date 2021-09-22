@@ -1,3 +1,4 @@
+var main = document.querySelector('#main');
 
 
 
@@ -7,7 +8,10 @@ for(var i=0; i<5; i++) {
     d.style.height = "25px";
     d.style.width = "50px";
     var h = document.createElement('h1');
+    h.innerHTML = "hii";
     d.appendChild(h);
-    document.write("hii<br>");
+    main.appendChild(d);
+
+    document.write("<br>");
 
 }
